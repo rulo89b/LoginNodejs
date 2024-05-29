@@ -8,7 +8,7 @@ Para esto utiliza Nodejs y los siguientes paquetes o dependencias :
   - mysql
   - nodemon
 
-Para la base de datos en mi caso utilice XAMP para el server de mysql y cree una base de datos llamada login_node,
+Para la base de datos en mi caso utilice XAMP para un servidor de MariaDB (ver 10.4.32) y el gestor de phpMyAdmin
 para despues crear una tabla con las columnas: 
   - id: tipo int y activando el auto-incremento
   - user: tipo varchar (50)
